@@ -44,7 +44,7 @@ body {
   rgba(0, 0, 0, 0.3) 1px,
   rgba(0, 0, 0, 0.3) 2px
 ),
-url(BoatWater.jpg);
+url(ShipBuilding2.jpg);
     background-attachment: fixed;
       }
 h2 {
@@ -71,7 +71,7 @@ div {
     }
         
 Div.two {
-    Color: #e9d2f4;
+    Color: #1c3144;
     width: 100%;
     font-size: 32px;  
     max-width: 960px;
@@ -90,9 +90,8 @@ ul.topnav {
     overflow: hidden;
     opacity: 0.7;
     /* background: rgba(0, 0, 0, 0.85); */
-    background-color: #618dd3;
+    background-color: #1c3144;
 }
-    
  /* .stripes {
   background: repeating-linear-gradient(
   45deg,
@@ -103,7 +102,6 @@ ul.topnav {
 ),
 url(BoatWater.jpg);
     } */
-    
 ul.topnav li {float: right;
 }
 
@@ -116,17 +114,15 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'PT Sans', sans-serif;   
 
 */
-    
 ul.topnav li a {
     display: block;
-    color: #e9d2f4;
+    color: #d00000;
     text-align: center;
     padding: 27px 38px;
     text-decoration: none;
     font-size: 125%;
     font-weight: 700;
 }
-    
 /* #test h2 {
     opacity: 0;
     Color: #e9d2f4;
@@ -289,8 +285,8 @@ div.right {
   -ms-transform: translate(-50%, -50%); */
   text-align: center;
   font-family: 'Lato', 'Cantarell', corbel, 'Roboto', 'PT Sans', 'Open Sans', 'Lato', sans-serif;
-}
-
+} 
+    
 /* contact form */
     
 input[type=text], select, textarea {
@@ -305,8 +301,8 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #ffba08;
+    color: black;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -325,24 +321,27 @@ input[type=submit]:hover {
     margin-left: auto;
     margin-right: auto;
 }
+    
 </style>
 </head>
 <body>
     
 <ul class="topnav">
   <li><a href="Contact.html">Contact</a></li>  
-  <li><a href="Security.html">Security</a></li>
-  <li><a class="active" href="LongshoreTransport.html">Long-shore Transport</a></li>
-  <li><a href="Engineering.html">Engineering</a></li>
-  <li class="left"><a href="OffshoreConcepts.html"><b>OFFSHORE CONCEPTS<b></a></li>
+  <li><a class="active" href="SecurityTwo.html">Security</a></li>
+  <li><a href="LongshoreTransportTwo.html">Long-shore Transport</a></li>
+  <li><a href="EngineeringTwo.html">Engineering</a></li>
+  <li class="left"><a href="OffShoreconceptsTwo.html"><b>OFFSHORE CONCEPTS<b></a></li>
 </ul>
 
 <div id="test" class="animated fadeIn two" style="padding: 4%; padding-bottom: 4%;">
-  <h2 class="bold"><u>Long-shore Transport</u></h2>
-    <h2>Logistics and contracting are privately sourced and managed</h2>
+  <h2 class="bold"><u>Security</u></h2>
+    <h2><font color="#ffba08">We provide both physical and cyber security solutions for trade goods and data exchange. Please inquire for details:</font></h2>
   <!-- <h2>BUILDING (Dreams, The Future) ON WATER</h2> -->
-  </div>    
+  </div>
 
+<!-- contact form below -->    
+      
 <div class="container">
   <form action="/action_page.php">
     <label for="fname">First Name</label>
@@ -351,20 +350,18 @@ input[type=submit]:hover {
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="country">Company</label>
+    <label for="country">Country</label>
     <select id="country" name="country">
       <option value="australia">Australia</option>
       <option value="canada">Canada</option>
       <option value="usa">USA</option>
     </select>
 
-    <label for="subject">Inquiry</label>
+    <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
   </form>
-</div>
-    
-</div>      
+</div>    
       
 </body>
